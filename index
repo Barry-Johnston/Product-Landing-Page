@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head id="header">
+    <meta charset="utf-8">
+    <title>Portable Monitor Stand</title>
+    <img src="" alt="" id="header-img">
+    <nav id="nav-bar">
+      <a href="#" id="nav-link">Features</a>
+      <a href="#" id="nav-link">Benefits</a>
+      <a href="#" id="nav-link">Pricing</a>
+    </nav>
+  </head>
+  <body>
+    <form id="form" action="index.html" method="post">
+      <input id="email"type="email" name="email" required placeholder="Please enter your email here">
+      <input id="submit" type="submit" name="submit">
+
+    </form>
+  </body>
+</html>
