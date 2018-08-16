@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head id="header">
+  <header id="header">
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
     <title>Portable Monitor Stand</title>
-
+    <img id="header-img" src="https://" alt="">
     <nav id="nav-bar">
-      <img src="./img/logo.png" height="45px" width="45px" alt="" id="header-img">
-      <a href="#" id="nav-link">Features</a>
-      <a href="video" id="nav-link">Application</a>
-      <a href="#" id="nav-link">Order</a>
+      <img src="./img/logo.png" height="45px" width="45px" alt="" id="Logo">
+      <a href="#submit" class="nav-link">Features</a>
+      <a href="#video" class="nav-link">Application</a>
+      <a href="#video" class="nav-link">Order</a>
 
     </nav>
-  </head>
+  </header>
   <body>
     <div class="standemimg">
       <img src="./img/standem.png">
     </div>
     <h1>Productivity on the go</h1>
-    <form id="form" action="index.html" method="post">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
       <input id="email"type="email" name="email" required placeholder="Please enter your email here">
-      <input id="submit" type="submit" name="submit">
+      <input id="submit" type="submit" value="Submit">
 
     </form>
-    <div class="features">
+    <div id="features">
       <h2>Collapsible and Easy to Carry</h2>
       <p>Designed to fit in your bag and be taken with you everywhere, The Standem opens and closes with one easy motion.</p>
       <h2>Adjustable Height</h2>
@@ -33,7 +35,8 @@
       <h2>Impossibly Lightweight</h2>
       <p>Weighing only 6 ounces.</p>
     </div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/uOL6JdelXGU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uOL6JdelXGU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="order">
       <button type="order" name="order">Order</button>
