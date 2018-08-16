@@ -2,19 +2,46 @@
 <html lang="en" dir="ltr">
   <head id="header">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portable Monitor Stand</title>
-    <img src="" alt="" id="header-img">
+
     <nav id="nav-bar">
+      <img src="./img/logo.png" height="45px" width="45px" alt="" id="header-img">
       <a href="#" id="nav-link">Features</a>
-      <a href="#" id="nav-link">Benefits</a>
-      <a href="#" id="nav-link">Pricing</a>
+      <a href="video" id="nav-link">Application</a>
+      <a href="#" id="nav-link">Order</a>
+
     </nav>
   </head>
   <body>
+    <div class="standemimg">
+      <img src="./img/standem.png">
+    </div>
+    <h1>Productivity on the go</h1>
     <form id="form" action="index.html" method="post">
       <input id="email"type="email" name="email" required placeholder="Please enter your email here">
       <input id="submit" type="submit" name="submit">
 
     </form>
+    <div class="features">
+      <h2>Collapsible and Easy to Carry</h2>
+      <p>Designed to fit in your bag and be taken with you everywhere, The Standem opens and closes with one easy motion.</p>
+      <h2>Adjustable Height</h2>
+      <p>Adjusting your laptop screen height is critical for maximum comfort and productivity.</p>
+      <h2>Fits Almost All Portable Monitors</h2>
+      <p>Patent-Pending "Pivoting Grips" automatically adjust to fit your laptop.</p>
+      <h2>Impossibly Lightweight</h2>
+      <p>Weighing only 6 ounces.</p>
+    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uOL6JdelXGU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="order">
+      <button type="order" name="order">Order</button>
+    </div>
   </body>
+  <footer>
+    <a href="#" id="foot-link">Privacy</a>
+    <a href="#" id="foot-link">About</a>
+    <a href="#" id="foot-link">Contact</a>
+  </footer>
 </html>
